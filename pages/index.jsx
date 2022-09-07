@@ -25,7 +25,7 @@ export default function Home() {
             Explore Apartments, Villas, Homes <br /> and more...
           </p>
           <Link href={"/rent"}>
-            <button class="button-18" role="button">
+            <button className="button-18" role="button">
               Explore Renting
             </button>
           </Link>
@@ -45,7 +45,7 @@ export default function Home() {
             Explore Apartments, Villas, Homes <br /> and more...
           </p>
           <Link href="/buy" passHref>
-            <button class="button-18" role="button">
+            <button className="button-18" role="button">
               Explore Buying
             </button>
           </Link>

@@ -33,7 +33,7 @@ const Property = ({
       </div>
       <div className="bottom pt-3">
         <div className="d-flex ">
-          {isVerified && <i class="bi bi-patch-check-fill"></i>}
+          {isVerified && <i className="bi bi-patch-check-fill"></i>}
           <h6 className="price mx-3">
             ₦{millify(price)}
             {rentFrequency && `/${rentFrequency}`}

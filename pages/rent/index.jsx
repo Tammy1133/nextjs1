@@ -6,9 +6,9 @@ const Rent = ({ propertyForRent }) => {
   return (
     <div>
       <div className="properties">
-        {propertyForRent.map((property) => {
+        {propertyForRent.map((property, index) => {
           return (
-            <div className="">
+            <div className="" key={index}>
               <Property property={property} key={property.id}></Property>
             </div>
           );

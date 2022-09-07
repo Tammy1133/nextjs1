@@ -122,7 +122,7 @@ const Search = ({ properties }) => {
         <Link
           href={`/search?purpose=${purpose}&bathsMin=${bathsMin}&rentFrequency=${rentFrequency}&minprice=${minPrice}&maxprice=${maxPrice}&roomsMin=${roomsMin}&areaMax=${areaMax}`}
         >
-          <button class="button-18 submitbutton" role="button">
+          <button className="button-18 submitbutton" role="button">
             Submit
           </button>
         </Link>

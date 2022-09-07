@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="contact-us-nav">
           <Link href="/search">
             <button
-              class="button-18 nav-button"
+              className="button-18 nav-button"
               style={{ fontSize: "16px" }}
               role="button"
             >

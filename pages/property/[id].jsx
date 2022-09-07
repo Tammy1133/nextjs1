@@ -31,9 +31,9 @@ const PropertyDetails = ({
     <div className="propertydetail">
       <div className="carouseldiv">
         <Carousel>
-          {photos.map((item) => (
+          {photos.map((item, index) => (
             <Carousel.Item>
-              <div className="d-flex justify-content-center">
+              <div key={index} className="d-flex justify-content-center">
                 <Image
                   style={{ objectFit: "cover" }}
                   height={420}
@@ -64,7 +64,7 @@ const PropertyDetails = ({
       </div>
       <h5 className="property-titles">{title}</h5>
       <div className="d-flex pt-4">
-        {isVerified && <i class="bi bi-patch-check-fill"></i>}
+        {isVerified && <i className="bi bi-patch-check-fill"></i>}
         <h6 className="price mx-3">
           ₦{millify(price)}
           {rentFrequency && `/${rentFrequency}`}
@@ -102,8 +102,8 @@ const PropertyDetails = ({
           <h4>
             <div className="d-flex flex-wrap">
               {amenities.map((item) => {
-                return item.amenities.map((item1) => (
-                  <div className="amenities">
+                return item.amenities.map((item1, index) => (
+                  <div key={index} className="amenities">
                     <p>{item1.text}</p>
                   </div>
                 ));
