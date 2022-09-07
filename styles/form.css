@@ -1,0 +1,43 @@
+.filterform {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.select {
+  max-width: 400px;
+  margin-left: 40px;
+}
+
+.selectdiv {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.form-item {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.form-item h6 {
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.property-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: blue;
+  font-size: 30px;
+}

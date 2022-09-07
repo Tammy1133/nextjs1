@@ -1,0 +1,64 @@
+/* Navbar section  */
+
+.logo {
+  height: 80px;
+}
+
+.links a {
+  color: red;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.links {
+  padding-left: 30px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  background-color: rgba(241, 211, 216, 0.927);
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* Navbar section end */
+
+@media (max-width: 480px) {
+  .nav-button {
+    padding: 10px !important;
+  }
+  nav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* //Footer */
+
+.footer {
+  font-size: 14px;
+  background-color: var(--color-primary);
+  padding: 15px 0;
+  background-color: rgba(249, 235, 235, 0.787);
+  color: black;
+  font-weight: bold !important;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .credits {
+  padding: 4px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer .credits a {
+  color: #fff;
+}
