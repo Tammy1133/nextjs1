@@ -32,8 +32,8 @@ const PropertyDetails = ({
       <div className="carouseldiv">
         <Carousel>
           {photos.map((item, index) => (
-            <Carousel.Item>
-              <div key={index} className="d-flex justify-content-center">
+            <Carousel.Item key={index}>
+              <div className="d-flex justify-content-center">
                 <Image
                   style={{ objectFit: "cover" }}
                   height={420}
